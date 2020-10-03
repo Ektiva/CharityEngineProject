@@ -1,0 +1,13 @@
+C:\MyProjects\CharityEngineProject\UniqueElement\bin\Debug\netcoreapp3.1\UniqueElement.exe
+C:\MyProjects\CharityEngineProject\UniqueElement\bin\Debug\netcoreapp3.1\UniqueElement.deps.json
+C:\MyProjects\CharityEngineProject\UniqueElement\bin\Debug\netcoreapp3.1\UniqueElement.runtimeconfig.json
+C:\MyProjects\CharityEngineProject\UniqueElement\bin\Debug\netcoreapp3.1\UniqueElement.runtimeconfig.dev.json
+C:\MyProjects\CharityEngineProject\UniqueElement\bin\Debug\netcoreapp3.1\UniqueElement.dll
+C:\MyProjects\CharityEngineProject\UniqueElement\bin\Debug\netcoreapp3.1\UniqueElement.pdb
+C:\MyProjects\CharityEngineProject\UniqueElement\obj\Debug\netcoreapp3.1\UniqueElement.csprojAssemblyReference.cache
+C:\MyProjects\CharityEngineProject\UniqueElement\obj\Debug\netcoreapp3.1\UniqueElement.AssemblyInfoInputs.cache
+C:\MyProjects\CharityEngineProject\UniqueElement\obj\Debug\netcoreapp3.1\UniqueElement.AssemblyInfo.cs
+C:\MyProjects\CharityEngineProject\UniqueElement\obj\Debug\netcoreapp3.1\UniqueElement.csproj.CoreCompileInputs.cache
+C:\MyProjects\CharityEngineProject\UniqueElement\obj\Debug\netcoreapp3.1\UniqueElement.dll
+C:\MyProjects\CharityEngineProject\UniqueElement\obj\Debug\netcoreapp3.1\UniqueElement.pdb
+C:\MyProjects\CharityEngineProject\UniqueElement\obj\Debug\netcoreapp3.1\UniqueElement.genruntimeconfig.cache
