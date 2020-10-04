@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyProjects\\CharityEngineProject\\UniqueElement\\UniqueElement.csproj": {}
+    "C:\\CharityEngineProject\\UniqueElement\\UniqueElement.csproj": {}
   },
   "projects": {
-    "C:\\MyProjects\\CharityEngineProject\\UniqueElement\\UniqueElement.csproj": {
+    "C:\\CharityEngineProject\\UniqueElement\\UniqueElement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyProjects\\CharityEngineProject\\UniqueElement\\UniqueElement.csproj",
+        "projectUniqueName": "C:\\CharityEngineProject\\UniqueElement\\UniqueElement.csproj",
         "projectName": "UniqueElement",
-        "projectPath": "C:\\MyProjects\\CharityEngineProject\\UniqueElement\\UniqueElement.csproj",
+        "projectPath": "C:\\CharityEngineProject\\UniqueElement\\UniqueElement.csproj",
         "packagesPath": "C:\\Users\\ektiv\\.nuget\\packages\\",
-        "outputPath": "C:\\MyProjects\\CharityEngineProject\\UniqueElement\\obj\\",
+        "outputPath": "C:\\CharityEngineProject\\UniqueElement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
