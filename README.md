@@ -1,44 +1,39 @@
-# STEINBAUERPizzeria
-| Small Pizzeria where customer can Create, Update and Delete Variations of pizza
+# Charity Engine Challenge
 
-## Back-End
+## Question 1
+
+Simple software to track vehicles that park at an apartment complex.
+The manager is able to: 
+  - Register new vehicles 
+  - Edit/update records for already registered vehicles 
+  - Search for a vehicle owner’s name and contact using the vehicle's registration number. 
+
+## Frameworks
  
- The Back-End was build with EntityFramework Core with InMemory Database 
- https://exceptionnotfound.net/ef-core-inmemory-asp-net-core-store-database/
+The software was build with ASP.NET MVC (C#), ADO.NET and SQL SERVER.
  
- To Run : cd /STEINBAUERPizzeriaApi && dotnet run
+## Run 
 
-## Front-End
- 
- The Front-End was build with [Angular CLI](https://github.com/angular/angular-cli) 
- 
- To Run : cd /STEINBAUERPizzeriaNg && npm install, ng serve
+ --> Clone the repository
 
-## Link
+ --> Open the project VehiclesTracking with your IDE (for example Visual Studio)
 
-https://steinbauerpizzeria.azurewebsites.net/ 
+ --> Run the script dbo.Create_Database_VehiclesTracking.sql in Microsoft SQL Server Management Studio and run 
+     to create a new database (You can find all scripts in the folder Database Scripts) 
 
-The app will not work properly since I use EF InMemory database. If nessecarly I could set up a database in azure to make it work.
+ --> Run the script dbo.Create_Table_Vehicle.sql
 
-## Screenshot
+ --> Run the others scripts
 
-![GitHub Logo](/screenshots/Home.PNG)
+ -->  Get the connection String of the database
+     (you can use Server Explorer option  in Visual Studio to get the Connection String from the database properties)
 
-![GitHub Logo](/screenshots/CreatePizza.PNG)
+ --> Changes the Connection String  in Web.config with your Connection String
 
-![GitHub Logo](/screenshots/DeletePizza.PNG)
-
-![GitHub Logo](/screenshots/EditPizza.PNG)
-
-## Swagger
-
-https://steinbauerpizzeria.azurewebsites.net/swagger/index.html#/Pizzas
-
-![GitHub Logo](/screenshots/Swagger.PNG)
-
+ --> Run the project
 
 ## Note
 
-This is a very basic web application and there is lot of thing to improve. However the purpose was just to quickly provide a working web application
-as a demo in the interview process for a full stack .Net developer at  STEINBAUER Engineering.
+This is a very basic MVC project build according to the requirements and there are lot of improvement that can be made.
+
 
