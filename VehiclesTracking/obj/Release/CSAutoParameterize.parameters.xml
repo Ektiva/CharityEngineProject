@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=.\SQLEXPRESS01;Initial Catalog=VehiclesTracking;Integrated Security=True;Pooling=False" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\CharityEngineProject\\VehiclesTracking\\obj\\Release\\Package\\PackageTmp\\Views\\web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\CharityEngineProject\\VehiclesTracking\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

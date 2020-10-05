@@ -1,4 +1,6 @@
-﻿Create procedure [dbo].[AddNewVehicle]  
+﻿Use VehiclesTracking;
+
+Create procedure [dbo].[AddNewVehicle]  
 (  
    @FirstName nvarchar (50),  
    @LastName nvarchar (50), 

@@ -1,0 +1,37 @@
+﻿@model VehiclesTracking.Models.OwnerContactDto
+
+@if (Model == null)
+{
+    <hr />
+    <h2>This registration Number is not valid</h2>
+}
+else
+{
+    <div>
+        <hr />
+        <h4>Owner of Vehicle with Registration Number  <strong> @Html.DisplayFor(model => model.RegistrationNumber)</strong></h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.FirstName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.PhoneNumber)
+            </dd>
+
+        </dl>
+    </div>
+}
+
+<p>
+    @Html.ActionLink("Back to Home", "Home")
+</p>

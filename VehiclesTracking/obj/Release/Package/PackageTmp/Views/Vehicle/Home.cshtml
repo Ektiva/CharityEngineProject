@@ -1,0 +1,36 @@
+﻿@model IEnumerable<VehiclesTracking.Models.Vehicle>
+
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Welcome to Charity Engine Vehicle Tracking</h2>
+
+<h4>
+    @Html.ActionLink("Register New Vehicle", "Create")
+</h4>
+
+<h4>
+    @Html.ActionLink("Vehicles Registered: Update/Delete", "Index")
+</h4>
+
+@*<h4> Search Vehicle Owner's</h4>*@
+
+<fieldset>
+    <legend>Search Vehicle Owner's</legend>
+    @using (Ajax.BeginForm("Owner", "Vehicle",
+                            new AjaxOptions { UpdateTargetId = "VehicleOwner" }))
+    {
+        <div id="VehicleOwner"></div>
+        <ul>
+            <li>
+                @Html.Label("Registration Number")
+                @Html.TextBox("regNumb")
+            </li>
+        </ul>
+        <button>Search</button>
+    }
+</fieldset>
+
+
