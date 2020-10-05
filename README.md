@@ -37,6 +37,12 @@ The software was build with ASP.NET MVC (C#), ADO.NET and SQL SERVER.
 
  --> Run the project
 
+### Assumption made
+
+ --> The only assumption I made was that 
+
+  The registration number and date, the first name, phone number, unit and apartment number property are required when registering a new Vehicle.
+
 ### Note
 
 This is a very basic MVC project build according to the requirements and there are lot of improvement that can be made.
