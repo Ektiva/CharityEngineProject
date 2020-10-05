@@ -8,20 +8,25 @@ The manager is able to:
   - Edit/update records for already registered vehicles 
   - Search for a vehicle owner’s name and contact using the vehicle's registration number. 
 
-## Frameworks
+### Frameworks
  
 The software was build with ASP.NET MVC (C#), ADO.NET and SQL SERVER.
  
-## Run 
+### Run 
 
  --> Clone the repository
 
  --> Open the project VehiclesTracking with your IDE (for example Visual Studio)
 
- --> Run the script dbo.Create_Database_VehiclesTracking.sql in Microsoft SQL Server Management Studio and run 
-     to create a new database (You can find all scripts in the folder Database Scripts) 
+ --> Run the script (in Microsoft SQL Server Management Studio or visual studio...)
 
- --> Run the script dbo.Create_Table_Vehicle.sql
+     dbo.Create_Database_VehiclesTracking.sql 
+ 
+    (You can find all scripts in the folder Database Scripts) 
+
+ --> Run the script 
+
+     dbo.Create_Table_Vehicle.sql
 
  --> Run the others scripts
 
@@ -32,8 +37,11 @@ The software was build with ASP.NET MVC (C#), ADO.NET and SQL SERVER.
 
  --> Run the project
 
-## Note
+### Note
 
 This is a very basic MVC project build according to the requirements and there are lot of improvement that can be made.
 
+## Question 2 (UniqueElement)
+
+This is just a Console application to solve the question
 
